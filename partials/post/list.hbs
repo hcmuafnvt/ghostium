@@ -1,10 +1,15 @@
 <article itemscope itemtype="http://schema.org/BlogPosting"
   role="article" class="post-item {{post_class}}">
   <header class="post-item-header">
-    <h2 itemprop="name" class="post-item-title">
+    <h2 itemprop="name" class="post-item-title">          
       <a href="{{url}}" itemprop="url" data-pjax title="{{{title}}}">
         {{{title}}}
       </a>
+      {{#if image}}
+        <div class="my-post-item">
+          <img src={{image}}>
+        </div>  
+      {{/if}}
     </h2>
   </header>
   <section itemprop="description" class="post-item-excerpt">
