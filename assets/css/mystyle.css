@@ -1,0 +1,8 @@
+/*=============posts on home page==========*/
+.post-item-header .my-post-item {
+	width: 150px; height: 200px; margin: 20px 0px -10px 0px;
+}
+
+.post-item-header .my-post-item img {
+	max-width: 100%; max-height: 100%;
+}
